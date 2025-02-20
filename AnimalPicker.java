@@ -7,7 +7,9 @@ public static void main (String args[]){
     String catOdog = scan.next();
     if(catOdog == "cat"){
         System.out.println("CAT ASCII ART HERE");
-    } else {
+    } else if (catOdog == "dog"){
         System.out.println("DOG ASCII ART HERE");
+    } else{
+        System.out.println("Invalid input. Please enter eirther 'cat' or 'dog'" );
     }
 }
